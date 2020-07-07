@@ -2,7 +2,7 @@ function carregar() {
     var msg = document.querySelector('#msg')
     var img = document.querySelector('#imagem')
     var data = new Date()
-    var hora = 20
+    var hora = data.getHours()
      msg2.innerHTML = `Agora são <strong>${hora}:00</strong> horas. `
     if (hora >= 4 && hora < 12) {
         document.body.style.background = '#bed1b5'
